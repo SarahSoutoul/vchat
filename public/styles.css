@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* Bootstrap picture */
+  .picture {
+    flex: 1;
+  }
+
+  /* Chat box */
+  .chat-box {
+    flex: 1;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  /* Styling for chat text */
+  .chat-text {
+    margin-bottom: 10px;
+  }
