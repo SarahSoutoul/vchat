@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Westerburg Chat</title>
+  <!-- Socket JS -->
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+
+</head>
+<body>
+  <div class="container py-5">
+    <div class="mb-4">
+      <div class="row justify-content-start">
+        <div class="col">
+          <button id="r" class="btn btn-primary">Talk</button>
+        </div>
+        <div class="col">
+          <button id="s" class="btn btn-danger" hidden="true">I'm done</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <div class="picture">
+          <img src="v.jpg" alt="Veronica">
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="chat-box" id="chat-box">
+          <div class="chat-text">
+            <strong>Veronica:</strong> Hello, I'm Veronica Sawyer. Ask me anything?
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <!-- Link to the external script.js file -->
+  <script src="script.js"></script>
+</body>
+</html>
